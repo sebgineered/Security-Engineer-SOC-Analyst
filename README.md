@@ -1,4 +1,4 @@
-# **Sebastian Konefal – Cybersecurity & Software Development Portfolio**  
+# **Sebastian Konefal – Cyber Security & Software Development Portfolio**  
 
 ## **About**  
 Aspiring Cybersecurity Engineer with a strong foundation in penetration testing, digital forensics, network security, and secure programming. Holds a **Higher Diploma in Science in Computing - Software Development** from the **National College of Ireland** and is nearing completion of a **BSc in Digital Forensics and Cyber Security** from **Technological University Dublin**. Hands-on experience in security research, vulnerability analysis, and malware reverse engineering.  
