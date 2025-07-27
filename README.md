@@ -1,54 +1,64 @@
 # **Sebastian Konefal – Cyber Security & Software Development Portfolio**  
 
 ## **About**  
-Aspiring Cybersecurity Engineer with a strong foundation in penetration testing, digital forensics, network security, and secure programming. Holds a **Higher Diploma in Science in Computing - Software Development** from the **National College of Ireland** and is nearing completion of a **BSc in Digital Forensics and Cyber Security** from **Technological University Dublin**. Hands-on experience in security research, vulnerability analysis, and malware reverse engineering.  
+Cybersecurity professional with a strong foundation in penetration testing, threat detection, malware analysis, and secure development. Holds a **BSc in Digital Forensics and Cyber Security** (1st Class Honours) and a **Higher Diploma in Software Development**. Certified in **CompTIA Security+, Network+, and CySA+**, with hands-on experience across blue and red team projects including SIEM, firewalls, secure programming, and malware reverse engineering.
+
+---
 
 ## **Highlighted Projects & Reports**  
 
 ### **Cybersecurity & Digital Forensics (BSc, Technological University Dublin)**  
 
 📌 **[Conti Ransomware Analysis – Longitudinal Study]**  
-- Conducted a detailed manual and automated analysis of the **Conti ransomware family** from 2020-2024, identifying **code evolution and evasion techniques**.  
-- Developed **YARA rules** for malware detection and mapped behavior to the **MITRE ATT&CK framework**.  
-- Utilized **FlareVM, Remnux, INetSim, and FakeDNS** in a secure malware analysis lab.  
+- Performed manual and automated malware analysis on **20+ Conti samples**, tracing evolution and obfuscation tactics.  
+- Developed custom **YARA rules**, reverse engineered samples using **FlareVM and Remnux**, and mapped behaviours to the **MITRE ATT&CK framework**.  
+- Built a **Python + Bash script** to automate JSON parsing and visualise malware traits across samples.
 
 📌 **[Penetration Testing – OSINT & Attack Vector Analysis]**  
-- Conducted an **OSINT-based reconnaissance** on a multinational cybersecurity company.  
-- Utilized **Google Dorking, Shodan, theHarvester, and Censys** for footprinting and attack vector identification.  
-- Mapped findings to the **MITRE ATT&CK framework** and provided actionable security recommendations.  
+- Performed reconnaissance on a global cybersecurity firm using **Google Dorking, Shodan, Censys**, and more.  
+- Identified exposed endpoints and misconfigurations, mapping findings to the **MITRE ATT&CK** framework.
 
-📌 **[Network Security – Open Source Firewalls]**  
-- Designed and implemented **NFtables-based firewall rules** for **IPv4 and IPv6 traffic filtering**.  
-- Hardened firewall security against **DoS attacks, SSH brute-force attempts, and port scanning**.  
-- Improved **packet filtering efficiency** and optimized **security timeouts for privileged access**.  
+📌 **[Network Security – Firewall Engineering]**  
+- Designed advanced **NFtables firewall rulesets** for IPv4/IPv6, mitigating brute-force attacks and DDoS traffic.  
+- Achieved 99.98% malicious packet drop rate in testing while preserving legitimate SSH access.
 
-📌 **[Secure Programming – Vulnerability Analysis & Fixes]**  
-- Identified and remediated **11 critical vulnerabilities**, including **SQL Injection, XSS, CSRF, and IDOR**.  
-- Compared **Snyk and Semgrep** for **static code analysis** and secure coding best practices.  
+📌 **[Secure Coding – Vulnerability Testing & Fixes]**  
+- Detected and patched **11+ critical web vulnerabilities** (e.g., SQLi, XSS, CSRF, IDOR) in a Python web app.  
+- Compared **Snyk and Semgrep** for static code analysis and implemented secure coding techniques.
 
----  
+---
+
+### **AI & Security Tools (Independent Projects)**
+
+📌 **[AI Email Security Scanner – Streamlit App]**  
+🌐 [Try the App](https://aiemailscanner.streamlit.app) | [GitHub](https://github.com/sebgineered/ai_email_scanner)  
+- Built a **Streamlit-based web app** to detect **prompt injection vulnerabilities** and **malicious URLs** in email content.  
+- Integrated with **Lakera Guard API** for AI input scanning, **Cohere LLM** for URL extraction, and **VirusTotal** for URL analysis.  
+- Offers a clean UI with **threat visualisation**, obfuscated dangerous links, and example threat emails.  
+- Built for red teamers, AI developers, and SOC analysts performing LLM security testing.
+
+---
 
 ### **Software Development (Higher Diploma, National College of Ireland)**  
 
-📌 **[GP Connect – Secure Spring Boot Web App]**  
-- Developed a **Spring Boot-based patient registration system** for **GP surgeries**, improving accessibility.  
-- Implemented **role-based access control, CSRF protection, and BCrypt password hashing** for security.  
-- Integrated **MySQL (AWS RDS), JUnit testing, and Google Lighthouse performance benchmarking**.  
+📌 **[GP Connect – Secure Spring Boot App]**  
+- Developed a **Spring Boot** web platform for GP registration with **role-based access**, **BCrypt**, and **CSRF** controls.  
+- Integrated **MySQL (AWS RDS)** and implemented **JUnit** testing and performance reviews with **Google Lighthouse**.
 
-📌 **[Web Design & Frontend Development]**  
-- Designed a **responsive travel agency website** using **HTML, CSS, JavaScript, and Bootstrap**.  
-- Optimized for **SEO and user experience**, ensuring accessibility and mobile responsiveness.  
+📌 **[Travel Agency Website – Frontend Project]**  
+- Designed and built a responsive web UI using **HTML, CSS, JavaScript, and Bootstrap**, optimised for SEO and mobile.
 
----  
+---
 
 ## **Skills & Technologies**  
 
-🔹 **Cybersecurity:** Penetration Testing, Network Security, Digital Forensics, Incident Response  
-🔹 **Tools & Frameworks:** **Wireshark, Splunk, Elastic Stack, Metasploit, VirtualBox, REMnux**  
-🔹 **Programming & Scripting:** **Python, Bash, Java, SQL, Regex, YARA, KQL**  
-🔹 **Secure Development:** OWASP Top 10, **NFtables, Secure Code Review, Threat Modeling**  
+🔹 **Cybersecurity:** Threat Detection, Incident Response, SIEM Engineering, Reverse Engineering, Malware Analysis  
+🔹 **Tools & Frameworks:** Elastic Stack, Wireshark, VirusTotal API, Splunk, FlareVM, REMnux, Streamlit  
+🔹 **Programming & Scripting:** Python, Bash, Java, SQL, YARA, Regex, KQL  
+🔹 **Secure Development:** OWASP Top 10, Static Code Analysis, Firewall Configuration, Threat Modelling  
 
----  
+---
 
 ### 📫 **Connect with Me**  
 📧 **Email:** konefalsebastian@gmail.com  
+🌐 **GitHub:** [sebgineered](https://github.com/sebgineered)
